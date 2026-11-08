@@ -1,0 +1,31 @@
+De onde vieram as imagens de origem
+===================================
+
+FOTOS DO BANCO DE IMAGENS PEXELS
+--------------------------------
+Licenca Pexels: uso gratuito, inclusive comercial, sem precisar dar credito.
+Nao e permitido revender a foto sem alteracao nem dar a entender que a pessoa
+fotografada apoia/endossa a empresa. Texto da licenca: https://www.pexels.com/license/
+
+  hero-usinagem.jpg        https://www.pexels.com/photo/10406128/
+  card-tornos.jpg          https://www.pexels.com/photo/7018175/
+  card-fresamento.jpg      https://www.pexels.com/photo/8865187/
+  card-cnc.jpg             https://www.pexels.com/photo/12951633/
+  faixa-oficina.jpg        https://www.pexels.com/photo/8956445/
+  projeto-torneamento.jpg  https://www.pexels.com/photo/28752150/
+  projeto-fresamento.jpg   https://www.pexels.com/photo/8865189/
+  projeto-solda.jpg        https://www.pexels.com/photo/27630177/
+
+Sao fotos ILUSTRATIVAS: mostram o tipo de servico, nao as pecas da Terto.
+A pagina avisa isso na secao Projetos. Quando o cliente mandar as fotos reais da
+oficina, troque o arquivo aqui (mesmo nome) e rode: npm run imagens
+
+
+MATERIAL DO PROPRIO CLIENTE
+---------------------------
+  logo-terto.png        logotipo enviado pelo cliente (fundo preto; o script
+                        transforma o preto em transparencia)
+  catalogo-selos.webp   arte do catalogo de selos mecanicos da Terto; dela saem
+                        a foto da secao de selos e um dos quadros da galeria
+  prototipo-hero.webp   protótipo da hero aprovado pelo cliente. Nao e usado
+                        pelo site: fica aqui so como referencia visual.
