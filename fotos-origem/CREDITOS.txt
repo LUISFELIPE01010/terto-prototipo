@@ -1,31 +1,57 @@
 De onde vieram as imagens de origem
 ===================================
 
-FOTOS DO BANCO DE IMAGENS PEXELS
---------------------------------
-Licenca Pexels: uso gratuito, inclusive comercial, sem precisar dar credito.
-Nao e permitido revender a foto sem alteracao nem dar a entender que a pessoa
-fotografada apoia/endossa a empresa. Texto da licenca: https://www.pexels.com/license/
+FOTOS REAIS DA TERTO USINAGEM (17/11/2026)
+-------------------------------------------
+Fotos enviadas pelo cliente, tiradas na oficina e dos produtos fabricados.
 
-  hero-usinagem.jpg        https://www.pexels.com/photo/10406128/
+  Sessao (estrutura e maquinario):
+    hero-cnc.png            Close-up de usinagem CNC: broca descendo sobre peca flangeada
+    galpao-interior.png     Vista aerea do interior do galpao, com tornos CNC em operacao
+    fachada.jpg             Fachada do galpao da Terto Usinagem (drone)
+
+  Portfolio (pecas fabricadas):
+    proj-eixos.png          Eixos cilindricos de aco usinados com furo roscado
+    proj-aneis.png          Aneis de aco com furos roscados (sobre papel Terto)
+    proj-disco-flange.png   Disco flangeado grande com multiplos furos + bucha
+    proj-serie.png          Lote de buchas e aneis em producao em serie
+    proj-flange-eixo.png    Peca com flange e eixo cilindrico (sobre papel Terto)
+    proj-blocos-l.png       Blocos de aco usinados em formato L (sobre bancada Terto)
+    proj-blocos-cubicos.png Blocos cubicos com furos roscados (sobre papel Terto)
+    proj-peca-complexa.png  Peca complexa com rebaixo escalonado e furos
+    proj-selos.jpg          Carcacas de selo mecanico com aletas
+    proj-engrenagens.jpg    Engrenagem cilindrica e engrenagem reta
+    proj-sprockets.jpg      Par de rodas dentadas (sprockets) com cubo e rasgo de chaveta
+    proj-sprocket-grande.jpg Roda dentada grande sobre palete
+
+
+FOTOS DO BANCO DE IMAGENS PEXELS (ainda em uso nos cards de servico)
+--------------------------------------------------------------------
+Licenca Pexels: uso gratuito, inclusive comercial, sem precisar dar credito.
+Texto da licenca: https://www.pexels.com/license/
+
   card-tornos.jpg          https://www.pexels.com/photo/7018175/
   card-fresamento.jpg      https://www.pexels.com/photo/8865187/
   card-cnc.jpg             https://www.pexels.com/photo/12951633/
-  faixa-oficina.jpg        https://www.pexels.com/photo/8956445/
-  projeto-torneamento.jpg  https://www.pexels.com/photo/28752150/
-  projeto-fresamento.jpg   https://www.pexels.com/photo/8865189/
-  projeto-solda.jpg        https://www.pexels.com/photo/27630177/
 
-Sao fotos ILUSTRATIVAS: mostram o tipo de servico, nao as pecas da Terto.
-A pagina avisa isso na secao Projetos. Quando o cliente mandar as fotos reais da
-oficina, troque o arquivo aqui (mesmo nome) e rode: npm run imagens
+Estas 3 fotos sao as unicas ainda de banco. Quando o cliente mandar fotos
+reais dos tornos e do centro de usinagem em operacao, substitui-las.
+
+
+FOTOS DE BANCO SUBSTITUIDAS (nao mais usadas, mantidas como referencia)
+-----------------------------------------------------------------------
+  hero-usinagem.jpg        https://www.pexels.com/photo/10406128/   -> substituida por hero-cnc.png
+  faixa-oficina.jpg        https://www.pexels.com/photo/8956445/    -> substituida por galpao-interior.png
+  projeto-torneamento.jpg  https://www.pexels.com/photo/28752150/   -> substituida pelas fotos de portfolio
+  projeto-fresamento.jpg   https://www.pexels.com/photo/8865189/    -> idem
+  projeto-solda.jpg        https://www.pexels.com/photo/27630177/   -> idem
 
 
 MATERIAL DO PROPRIO CLIENTE
 ---------------------------
   logo-terto.png        logotipo enviado pelo cliente (fundo preto; o script
                         transforma o preto em transparencia)
-  catalogo-selos.webp   arte do catalogo de selos mecanicos da Terto; dela saem
-                        a foto da secao de selos e um dos quadros da galeria
-  prototipo-hero.webp   protótipo da hero aprovado pelo cliente. Nao e usado
+  catalogo-selos.webp   arte do catalogo de selos mecanicos da Terto; dela sai
+                        a foto da secao de selos
+  prototipo-hero.webp   prototipo da hero aprovado pelo cliente. Nao e usado
                         pelo site: fica aqui so como referencia visual.

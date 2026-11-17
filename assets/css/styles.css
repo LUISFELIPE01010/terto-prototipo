@@ -324,6 +324,8 @@ p{margin:0}
 
 /* ---------- 8. Sobre ---------- */
 .sobre{background:var(--mist)}
+.sobre__foto{overflow:hidden;border-radius:6px}
+.sobre__foto img{width:100%;height:auto;display:block}
 .sobre__grid{display:grid;grid-template-columns:minmax(0,1fr);gap:2.5rem}
 .sobre__txt p + p{margin-top:1rem}
 .destaques{margin-top:2rem;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line)}

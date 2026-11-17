@@ -40,16 +40,24 @@ const QUALIDADE = { webp: 80, avif: 52 };
    quais larguras. "foco" e a parte da foto que fica no centro do corte
    ('center', 'top', 'bottom', 'north', 'south'...). */
 const FOTOS = {
-  // 2,25 e a proporcao da area da hero no computador (62% da largura x a altura
-  // da hero). Cortar ja nessa proporcao evita o navegador cortar de novo por cima.
-  'hero-usinagem':   { de: 'hero-usinagem.jpg',        proporcao: 2.25,  larguras: [640, 900, 1200, 1500, 1900], foco: 0.6 },
+  'hero-usinagem':   { de: 'hero-cnc.png',             proporcao: 2.25,  larguras: [640, 900, 1200, 1500, 1900], foco: 0.5 },
   'card-tornos':     { de: 'card-tornos.jpg',          proporcao: 1.65,  larguras: [420, 640, 900] },
   'card-fresamento': { de: 'card-fresamento.jpg',      proporcao: 1.65,  larguras: [420, 640, 900] },
   'card-cnc':        { de: 'card-cnc.jpg',             proporcao: 1.65,  larguras: [420, 640, 900] },
-  'faixa-oficina':   { de: 'faixa-oficina.jpg',        proporcao: 2.2,   larguras: [1100, 1700, 2200] },
-  'projeto-torneamento': { de: 'projeto-torneamento.jpg', proporcao: 4 / 3, larguras: [420, 640, 840] },
-  'projeto-fresamento':  { de: 'projeto-fresamento.jpg',  proporcao: 4 / 3, larguras: [420, 640, 840] },
-  'projeto-solda':       { de: 'projeto-solda.jpg',       proporcao: 4 / 3, larguras: [420, 640, 840] },
+  'faixa-oficina':   { de: 'galpao-interior.png',      proporcao: 2.2,   larguras: [1100, 1700, 2200], foco: 0.35 },
+  'fachada':         { de: 'fachada.jpg',              proporcao: 16/9,  larguras: [560, 900, 1200] },
+  'proj-eixos':          { de: 'proj-eixos.png',           proporcao: 4/3, larguras: [420, 640, 840] },
+  'proj-aneis':          { de: 'proj-aneis.png',           proporcao: 4/3, larguras: [420, 640, 840], foco: 0.35 },
+  'proj-disco-flange':   { de: 'proj-disco-flange.png',   proporcao: 4/3, larguras: [420, 640, 840] },
+  'proj-serie':          { de: 'proj-serie.png',           proporcao: 4/3, larguras: [420, 640, 840] },
+  'proj-flange-eixo':    { de: 'proj-flange-eixo.png',    proporcao: 4/3, larguras: [420, 640, 840] },
+  'proj-blocos-l':       { de: 'proj-blocos-l.png',       proporcao: 4/3, larguras: [420, 640, 840] },
+  'proj-blocos-cubicos': { de: 'proj-blocos-cubicos.png', proporcao: 4/3, larguras: [420, 640, 840] },
+  'proj-selos':          { de: 'proj-selos.jpg',          proporcao: 4/3, larguras: [420, 640, 840] },
+  'proj-engrenagens':    { de: 'proj-engrenagens.jpg',    proporcao: 4/3, larguras: [420, 640, 840] },
+  'proj-sprockets':      { de: 'proj-sprockets.jpg',      proporcao: 4/3, larguras: [420, 640, 840] },
+  'proj-peca-complexa':  { de: 'proj-peca-complexa.png',  proporcao: 4/3, larguras: [420, 640, 840], foco: 0.4 },
+  'proj-sprocket-grande':{ de: 'proj-sprocket-grande.jpg', proporcao: 4/3, larguras: [420, 640, 840], foco: 0.45 },
 };
 
 /* Do catalogo do cliente saem duas imagens: a foto larga da secao de selos e o
@@ -57,7 +65,6 @@ const FOTOS = {
    cima e faixa embaixo, que precisam ficar de fora. */
 const DO_CATALOGO = {
   'selos-mecanicos': { area: [18, 556, 988, 452], proporcao: 2.19, larguras: [560, 900, 1200] },
-  'projeto-selos':   { area: [120, 580, 600, 450], proporcao: 4 / 3, larguras: [420, 640, 840] },
 };
 
 fs.mkdirSync(DESTINO, { recursive: true });
